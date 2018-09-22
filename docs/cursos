@@ -1,0 +1,14 @@
+INSERT INTO CURSO (NOME) VALUES 
+('Administração'),
+('Análise e Desenvolvimento de Sistemas'),
+('Análise e Desenvolvimento de Sistemas EAD'),
+('Banco de Dados'),
+('Engenharia da Computação'),
+('Gestão da Tecnologia da Informação'),
+('Jogos Digitais'),
+('Processos Gerenciais'),
+('Produção Multimídia'),
+('Redes de Computadores'),
+('Sistemas de Informação')
+
+SELECT * FROM CURSO
