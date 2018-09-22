@@ -1,0 +1,109 @@
+/*Cadastre como disciplinas ofertadas as disciplinas do 2º semestre para os cursos de SI ( turmas A e B) e 
+ADS (turmas A, B, C e D) para o ano de 2018, semestre 2, informe o coordenador real do curso e o professor que leciona
+ a disciplina atualmente para sua turma. Utilize dados ficticíos para as informações obrigatórias não disponibilizadas.*/
+
+INSERT INTO DISCIPLINAOFERTADA (IDCOORDENADOR, IDDISCIPLINA, IDCURSO, ANO, SEMESTRE, TURMA, IDPROFESSOR, METODOLOGIA, RECURSOS, CRITERIOAVALIACAO, PLANODEAULAS) VALUES
+
+/* TURMA A SI */
+(1, 1, 1, 2018, 2, 'A', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'EAD', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'EAD', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO');
+
+/* TURMA B SI*/
+(1, 1, 1, 2018, 2, 'B', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'EAD', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'EAD', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO');
+
+/* TURMA A ADS */
+
+(1, 1, 1, 2018, 2, 'A', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'EAD', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'A', 1, 'EAD', 'CLASSROOM', 'ACS + PROVA', 'PLANO');
+
+/* TURMA B ADS */
+
+(1, 1, 1, 2018, 2, 'B', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'EAD', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'B', 1, 'EAD', 'CLASSROOM', 'ACS + PROVA', 'PLANO');
+
+/* TURMA C ADS */
+
+(1, 1, 1, 2018, 2, 'C', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'C', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'C', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'C', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'C', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'C', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'C', 1, 'EAD', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+/* TURMA D ADS */
+
+(1, 1, 1, 2018, 2, 'D', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'D', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'D', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'D', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'D', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'D', 1, 'AULA PRESENCIAL', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'D', 1, 'EAD', 'CLASSROOM', 'ACS + PROVA', 'PLANO'),
+
+(1, 1, 1, 2018, 2, 'D', 1, 'EAD', 'CLASSROOM', 'ACS + PROVA', 'PLANO');
