@@ -1,0 +1,48 @@
+/*Insira na tabela Entrega, 2 entregas para cada atividade vinculada ( 2 x 10 x 2 = 40), 
+todas que forem ACs 1, 2, 3, 4 ou 5 devem estar como Corrigidas e todas as outras devem estar como entregues.*/
+
+INSERT INTO ENTREGA (IDALUNO, IDAVINCULADA, TITULO, RESPOSTA, STATUS, IDPROFESSOR, NOTA, DTAVALIACAO) VALUES
+
+(1,1,'ENREGA AC1', '1-A, 2-B, 3-C', 'CORRIGIDO', 1, 10, GETDATE()),
+(1,2,'ENREGA AC2', '1-B, 2-A, 3-C', 'CORRIGIDO', 1, 9, GETDATE()),
+(1,3,'ENREGA AC3', '1-C, 2-B, 3-C', 'CORRIGIDO', 1, 10, GETDATE()),
+(1,4,'ENREGA AC4', '1-A, 2-D, 3-C', 'CORRIGIDO', 1, 7, GETDATE()),
+(1,5,'ENREGA AC5', '1-B, 2-B, 3-E', 'CORRIGIDO', 1, 10, GETDATE()),
+(1,6,'ENREGA AC6', '1-A, 2-D, 3-C', 'ENTREGUE', 1, , GETDATE()),
+(1,7,'ENREGA AC7', '1-B, 2-B, 3-C', 'ENTREGUE', 1, , GETDATE()),
+(1,8,'ENREGA AC8', '1-A, 2-A, 3-C', 'ENTREGUE', 1, , GETDATE()),
+(1,9,'ENREGA AC9', '1-B, 2-D, 3-C', 'ENTREGUE', 1, , GETDATE()),
+(1,10,'ENREGA AC10', '1-A, 2-D, 3-A', 'ENTREGUE', 1, , GETDATE()),
+
+(1,11,'ENREGA AC1', '1-A, 2-B, 3-A', 'CORRIGIDO', 1, 8, GETDATE()),
+(1,12,'ENREGA AC2', '1-B, 2-A, 3-B', 'CORRIGIDO', 1, 10, GETDATE()),
+(1,13,'ENREGA AC3', '1-C, 2-B, 3-D', 'CORRIGIDO', 1, 10, GETDATE()),
+(1,14,'ENREGA AC4', '1-A, 2-D, 3-B', 'CORRIGIDO', 1, 7, GETDATE()),
+(1,15,'ENREGA AC5', '1-B, 2-B, 3-A', 'CORRIGIDO', 1, 10, GETDATE()),
+(1,16,'ENREGA AC6', '1-A, 2-D, 3-D', 'ENTREGUE', 1, , GETDATE()),
+(1,17,'ENREGA AC7', '1-B, 2-B, 3-E', 'ENTREGUE', 1, , GETDATE()),
+(1,18,'ENREGA AC8', '1-A, 2-A, 3-D', 'ENTREGUE', 1, , GETDATE()),
+(1,19,'ENREGA AC9', '1-B, 2-D, 3-B', 'ENTREGUE', 1, , GETDATE()),
+(1,20,'ENREGA AC10', '1-A, 2-D, 3-C', 'ENTREGUE', 1, , GETDATE()),
+
+(2,1,'ENREGA AC1', '1-A, 2-D, 3-A', 'CORRIGIDO', 1, 7, GETDATE()),
+(2,2,'ENREGA AC2', '1-B, 2-A, 3-C', 'CORRIGIDO', 1,10, GETDATE()),
+(2,3,'ENREGA AC3', '1-C, 2-B, 3-B', 'CORRIGIDO', 1, 7, GETDATE()),
+(2,4,'ENREGA AC4', '1-A, 2-D, 3-A', 'CORRIGIDO', 1, 7, GETDATE()),
+(2,5,'ENREGA AC5', '1-B, 2-B, 3-E', 'CORRIGIDO', 1, 10, GETDATE()),
+(2,6,'ENREGA AC6', '1-A, 2-D, 3-D', 'ENTREGUE', 1, , GETDATE()),
+(2,7,'ENREGA AC7', '1-B, 2-B, 3-C', 'ENTREGUE', 1, , GETDATE()),
+(2,8,'ENREGA AC8', '1-A, 2-A, 3-E', 'ENTREGUE', 1, , GETDATE()),
+(2,9,'ENREGA AC9', '1-B, 2-D, 3-C', 'ENTREGUE', 1, , GETDATE()),
+(2,10,'ENREGA AC10', '1-A, 2-D, 3-D', 'ENTREGUE', 1, , GETDATE()),
+
+(2,11,'ENREGA AC1', '1-A, 2-B, 3-D', 'CORRIGIDO', 1, 10, GETDATE()),
+(2,12,'ENREGA AC2', '1-B, 2-D, 3-C', 'CORRIGIDO', 1, 9, GETDATE()),
+(2,13,'ENREGA AC3', '1-C, 2-B, 3-B', 'CORRIGIDO', 1, 10, GETDATE()),
+(2,14,'ENREGA AC4', '1-D, 2-D, 3-C', 'CORRIGIDO', 1, 7, GETDATE()),
+(2,15,'ENREGA AC5', '1-B, 2-B, 3-E', 'CORRIGIDO', 1, 10, GETDATE()),
+(2,16,'ENREGA AC6', '1-A, 2-D, 3-C', 'ENTREGUE', 1, , GETDATE()),
+(2,17,'ENREGA AC7', '1-B, 2-C, 3-A', 'ENTREGUE', 1, , GETDATE()),
+(2,18,'ENREGA AC8', '1-A, 2-A, 3-C', 'ENTREGUE', 1, , GETDATE()),
+(2,19,'ENREGA AC9', '1-B, 2-D, 3-D', 'ENTREGUE', 1, , GETDATE()),
+(2,20,'ENREGA AC10', '1-A, 2-D, 3-A', 'ENTREGUE', 1, , GETDATE());
