@@ -1,0 +1,11 @@
+select	pro.id, 
+		d_ofer.idprofessor,
+		msg.idprofessor,
+		at_vinc.idprofessor,
+		ent.idprofessor
+
+from professor as pro
+join disciplinaofertada as d_ofer on pro.id = d_ofer.idprofessor
+left join mensagem as msg on pro.id = msg.idprofessor
+join atividadevinculada as at_vinc on pro.id = at_vinc.idprofessor
+join entrega as ent on pro.id = ent.idprofessor
